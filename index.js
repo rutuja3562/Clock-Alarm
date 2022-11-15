@@ -7,10 +7,10 @@ const stopAlarm = document
     window.location.reload(true);
   });
 
-var audio = new Audio(
-  "audio.mp3"
-  //   "https://interactive-examples.mdn.mozilla.net/media/examples/t-rex-roar.mp3"
-);
+// var audio = new Audio(
+//   "audio.mp3"
+//   //   "https://interactive-examples.mdn.mozilla.net/media/examples/t-rex-roar.mp3"
+// );
 function ringBell() {
   audio.play();
 }
